@@ -41,7 +41,7 @@ public class FlipperController : MonoBehaviour
         {
             SetAngle(this.flickAngle);
         }
-        //右矢印キーを押した時右フリッパーを動かす
+        //Dキーを押した時右フリッパーを動かす
         if (Input.GetKeyDown(KeyCode.D) && tag == "RightFripperTag")
         {
             SetAngle(this.flickAngle);

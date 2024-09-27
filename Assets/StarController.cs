@@ -19,6 +19,6 @@ public class StarController : MonoBehaviour
     void Update()
     {
         //‰ñ“]
-        this.transform.Rotate(0, this.rotspeed, 0);
+        this.transform.Rotate(0, this.rotspeed, 0, Space.Self);
     }
 }
